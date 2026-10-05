@@ -1,0 +1,16 @@
+{
+  "name": "Ahorros RD",
+  "short_name": "Ahorros",
+  "description": "Mi app de ahorro y calculadora - RD$",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#10b981",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/138/138292.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
