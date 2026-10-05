@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Ahorros RD - Mi Alcancía</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#10b981">
+<link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/138/138292.png">
+<style>body{margin:0;background:#f8fafc}iframe{width:100%;height:100vh;border:none} #loading{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:#f8fafc;font-family:sans-serif;flex-direction:column} .spin{width:40px;height:40px;border:4px solid #e2e8f0;border-top:4px solid #10b981;border-radius:50%;animation:spin 1s linear infinite} @keyframes spin{to{transform:rotate(360deg)}}</style>
+</head>
+<body>
+<div id="loading"><div class="spin"></div><p style="margin-top:12px;color:#64748b">Cargando tu alcancía...</p></div>
+<iframe src="https://smart-dramatic-money-path.base44.app" onload="document.getElementById('loading').style.display='none'"></iframe>
+<script>if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js')}</script>
+</body>
+</html>
